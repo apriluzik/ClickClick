@@ -2,6 +2,7 @@ package com.mapriluzikgmail.clickclick;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -130,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setcha(){
+        Log.d("셋차","셋차");
         Random rnd=new Random();
         int count=0;
         int r;
